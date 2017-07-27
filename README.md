@@ -8,7 +8,7 @@ Features:
 * Based on lubuntu
 * Light weight
 * Fast
-* Contains neccessary packages
+* Contains necessary packages
 * PPA synced with github
 
 ## Customizing Distribution
@@ -21,7 +21,7 @@ Creating a metapackage is really easy, we will make use of [equivs](http://apt.u
 - First, install equivs: `sudo apt-get install equivs`
 - Now run equivs: `equivs-control ns-control`
 - It will create a file called ns-control, open this file with your text editor.
-- Modify the file to your needs modifying the needy information.
+- Modify the file to your needs by modifying the needy information.
 - Then run: `equivs-build ns-control` to build your metapackage, thats all simple and easy.
 - To add it to meilix follow adding a metapackage to meilix section.
 
